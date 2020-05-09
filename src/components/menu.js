@@ -4,19 +4,31 @@ import { Link } from 'gatsby';
 
 const Menu = menu =>  (
         <div style={{
-            background: '#f4f4f4',
-            paddingTop: '10px'
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `0.5rem 0rem 0rem `,
+            backgroundColor: 'rgba(25, 120, 222, 0.28)',
+            borderRadius: '50px'
         }}>
         
             <ul style={{
                 listStyle: 'none',
+                marginLeft: '0rem',
                 display: 'flex',
                 justifyContent: 'space-evenly'
+                
             }}>
-                <li><Link to="/">Home </Link></li>
-                <li><Link to="/about">About </Link></li>
-                <li><Link to="/services">Services </Link></li>
-                <li><Link to="/blog">Blog </Link></li>
+                <li>Latest Article </li>
+                <li>Popular </li>
+                <li>Health </li>
+                <li>Technology</li>
+                <li>Covid19</li>
+                {/* <li>Book Summary</li> */}
+                
+
+
+                {/* <li><Link to="/">Latest Article </Link></li> */}
+                
             </ul>
 
         </div>
