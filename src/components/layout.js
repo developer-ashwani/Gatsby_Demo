@@ -13,6 +13,7 @@ import Header from "./header"
 import Menu from "./menu"
 import "./layout.css"
 import Footer from './footer'
+import BlogList from '../container/bloglist'
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +29,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Menu />     
+      <Menu /> 
+        
       <div
         style={{
           margin: `0 auto`,
@@ -36,6 +38,7 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
+        <BlogList/>
         <main>{children}</main>
         <Footer />
       </div>

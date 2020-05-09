@@ -1,3 +1,4 @@
+plugins: [`gatsby-plugin-less`]
 module.exports = {
   siteMetadata: {
     title: `Medium`,
