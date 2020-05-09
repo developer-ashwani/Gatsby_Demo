@@ -5,16 +5,22 @@ import './bloglist.less'
 export default class bloglist extends Component {
 render() {
 return (
+
         < div>
             <ul class="cards">
                 <li class="cards__item">
                     <div class="card">
-                        <div class="card__image" style="background-image: url(https://unsplash.it/800/600?image=59)"></div>
+                        <div class="card__image" style={{backgroundImage: 'url(https://unsplash.it/800/600?image=59)'}}></div>
                         <div class="card__content">
-                            <div class="card__title">Flex</div>
-                            <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The
-                                second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-                            <button class="btn btn--block card__btn">Button</button>
+                            <div class="card__title">
+                            How to Deliver Exceptional
+                            </div>
+                            <p class="card__owner"> 
+                                Ashwani Madhukar <br/>
+                            </p>
+                            <span className= "card__read">
+                                    May 09 - 6 min read
+                            </span>  
                         </div>
                     </div>
                 </li>
@@ -23,10 +29,12 @@ return (
                         <div class="card__image card__image--river"></div>
                         <div class="card__content">
                             <div class="card__title">Flex Grow</div>
-                            <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a
-                                unitless value that serves as a proportion. It dictates what amount of the available space
-                                inside the flex container the item should take up.</p>
-                            <button class="btn btn--block card__btn">Button</button>
+                            <p class="card__owner"> 
+                                Ashwani Madhukar <br/>
+                            </p>
+                            <span className= "card__read">
+                                    May 09 - 6 min read
+                            </span>  
                         </div>
                     </div>
                 </li>
@@ -35,9 +43,12 @@ return (
                         <div class="card__image card__image--record"></div>
                         <div class="card__content">
                             <div class="card__title">Flex Shrink</div>
-                            <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative
-                                numbers are invalid.</p>
-                            <button class="btn btn--block card__btn">Button</button>
+                            <p class="card__owner"> 
+                                Ashwani Madhukar <br/>
+                            </p>
+                            <span className= "card__read">
+                                    May 09 - 6 min read
+                            </span>  
                         </div>
                     </div>
                 </li>
@@ -46,15 +57,18 @@ return (
                         <div class="card__image card__image--flowers"></div>
                         <div class="card__content">
                             <div class="card__title">Flex Basis</div>
-                            <p class="card__text">This defines the default size of an element before the remaining space is
-                                distributed. It can be a length (e.g. 20%, 5rem, etc.) or a keyword. The auto keyword means
-                                "look at my width or height property."</p>
-                            <button class="btn btn--block card__btn">Button</button>
+                            <p class="card__owner"> 
+                                Ashwani Madhukar <br/>
+                            </p>
+                            <span className= "card__read">
+                                    May 09 - 6 min read
+                            </span>  
                         </div>
                     </div>
                 </li>
             </ul>
     </div>
+    
     )
     }
     }

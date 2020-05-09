@@ -11,8 +11,6 @@
   box-sizing: border-box;
 }
 
-
-
 img {
   height: auto;
   max-width: 100%;
@@ -54,6 +52,7 @@ img {
 
 .card {
   background-color: white;
+  width: 330px;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
   display: flex;
@@ -117,13 +116,20 @@ img {
   font-size: 1.25rem;
   font-weight: 300;
   letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
-.card__text {
+.card__owner {
+  color: @gray;
+  display: flex;
   flex: 1 1 auto;
+  margin-bottom: 0px;
   font-size: 0.875rem;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  align-items: flex-end;
+}
+.card__read {
+  color: @gray-light;
+  font-size: 0.875rem;
 }
 

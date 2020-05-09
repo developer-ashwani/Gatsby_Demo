@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 const Menu = menu =>  (
         <div style={{
             margin: `0 auto`,
-            maxWidth: 960,
+            maxWidth: 1200,
             padding: `0.5rem 0rem 0rem `,
             backgroundColor: 'rgba(25, 120, 222, 0.28)',
             borderRadius: '50px'

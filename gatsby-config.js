@@ -1,4 +1,3 @@
-plugins: [`gatsby-plugin-less`]
 module.exports = {
   siteMetadata: {
     title: `Medium`,
@@ -14,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-less`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
