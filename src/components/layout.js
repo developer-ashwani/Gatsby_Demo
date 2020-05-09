@@ -40,8 +40,9 @@ const Layout = ({ children }) => {
       >
         <BlogList/>
         {/* <main>{children}</main> */}
-        <Footer />
+       
       </div>
+      <Footer />
     </>
   )
 }

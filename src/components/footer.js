@@ -6,7 +6,12 @@ import { FaLinkedin } from "react-icons/fa";
  
 const footer = () => {
     return (
-        <footer className=" pt-4 mt-5 mb-2">
+        <footer className=" pt-4 mb-2"
+        style={{
+            margin: `0 auto`,
+            maxWidth: 1200,
+          }}
+        >
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
                     <div className="col-md-12 mt-md-0 mt-3">

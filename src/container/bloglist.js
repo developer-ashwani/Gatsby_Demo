@@ -10,7 +10,7 @@ return (
             <ul class="cards">
                 <li class="cards__item">
                     <div class="card">
-                        <div class="card__image" style={{backgroundImage: 'url(https://unsplash.it/800/600?image=59)'}}></div>
+                        <div class="card__image" style={{backgroundImage: 'url(https://designercarbras.files.wordpress.com/2015/10/sports-car-hd-wallpaper-2013-01.jpg'}}></div>
                         <div class="card__content">
                             <div class="card__title">
                             How to Deliver Exceptional
